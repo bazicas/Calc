@@ -49,19 +49,15 @@ public class Main {
             switch (words[1]) {
                 case "+":
                     intResult = operand1 + operand2;
-                    System.out.println(intResult);
                     break;
                 case "-":
                     intResult = operand1 - operand2;
-                    System.out.println(intResult);
                     break;
                 case "*":
                     intResult = operand1 * operand2;
-                    System.out.println(intResult);
                     break;
                 case "/":
                     intResult = operand1 / operand2;
-                    System.out.println(intResult);
                     break;
                 default:
                     throw new Exception("Формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *)");
